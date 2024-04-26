@@ -5,11 +5,16 @@
     --color-bg: #16171d;
     --color-bg-medium: #1e1f29;
     --color-bg-light: #2e2d3d;
+    --color-stroke:#4d5064;
+    --border-8: 8px;
 }
 
 body {
     background: var(--color-bg);
     margin: 0;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
 }
 
 a {
