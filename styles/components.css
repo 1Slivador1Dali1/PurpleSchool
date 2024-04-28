@@ -191,3 +191,34 @@
         font-size: 21px;
     }
 }
+
+/*Chip*/
+.chip {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: var(--color-text);
+    border: 1px solid var(--color-stroke);
+    padding: 8px 16px;
+    border-radius: var(--border-10);
+    background: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.chip:hover {
+    background: var(--color-bg-medium);
+}
+
+.chip_active {
+    background: var(--color-primary-hover);
+    border: none;
+}
+
+/*Course card*/
+
+.course-card {
+    background: var(--color-bg-medium);
+    border-radius: var(--border-10);
+    color: var(--color-text);
+}
